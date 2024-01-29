@@ -10,8 +10,7 @@ if(fs.existsSync('canada.txt') || fs.existsSync('usa.txt')){
 }
 
 // TASK B and C
-
-// create canada.txt and usa.txt with headers
+// create canada.txt and usa.txt with headersa
 
 const headerData = "country,year,population\n"; 
 fs.writeFile('canada.txt',headerData,function (err) {
